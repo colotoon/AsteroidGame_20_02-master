@@ -24,7 +24,9 @@ namespace AsteroidGame
 
         public void Draw(Graphics g)
         {
-             g.FillEllipse(Brushes.White, new Rectangle(
+
+            // лучшее решение
+            g.FillEllipse(Brushes.White, new Rectangle(
                  _Position.X, _Position.Y,
                  _Size, _Size));
 
